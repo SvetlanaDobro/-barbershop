@@ -1,0 +1,29 @@
+.gallery {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.gallery-pre-title {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 44px;
+}
+.gallery-pre-title::before {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 1px;
+  background-color: var(--second-title-color);
+}
+
+.gallery-pre-title.pre-title {
+}
+
+.gallery .pre-title {
+}
+
+.gallery-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
