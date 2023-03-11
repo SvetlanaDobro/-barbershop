@@ -75,7 +75,7 @@
   transform: scale(1.05);
   background-color: var(--accent-color);
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .header-list {
     display: none;
   }
@@ -93,7 +93,7 @@
   width: 40px;
   height: 40px;
 }
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 768px) {
   .header-btn-ham {
     display: none;
   }

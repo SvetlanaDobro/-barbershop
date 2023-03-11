@@ -95,7 +95,7 @@
   color: #9da4bd;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .hero-soc {
     display: none;
   }
