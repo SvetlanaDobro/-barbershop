@@ -1,9 +1,45 @@
-<footer>
-    <p>Online-booking</p>
-    <form action="">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <button></button>
-    </form>
-</footer>
+
+ <div class="contact-wrap">
+        <div class="container">
+          <section class="online">
+            <h2 class="online-title title">Online-booking</h2>
+            <form class="online-form">
+              <div class="online-field">
+                <input
+                  class="online-input online-item"
+                  id="online-name"
+                  name="online-name"
+                  type="text"
+                  required
+                  placeholder=" "
+                />
+                <label class="online-label" for="online-name">Name*</label>
+              </div>
+              <div class="online-field">
+                <input
+                  class="online-input online-item"
+                  id="online-tel"
+                  name="online-tel"
+                  type="tel"
+                  required
+                  placeholder=" "
+                />
+                <label class="online-label" for="online-tel">Phone*</label>
+              </div>
+              <div class="online-field online-field-text">
+                <textarea
+                  class="online-textarea online-item"
+                  id="online-message"
+                  name="online-message"
+                  placeholder=" "
+                ></textarea>
+                <label class="online-label" for="online-message">Message</label>
+              </div>
+              <button class="btn online-btn" type="submit">Send</button>
+            </form>
+          </section>
+          <section class="contacts">
+            <h2 class="contacts-title title">Contacts</h2>
+          </section>
+        </div>
+      </div>
